@@ -1,0 +1,11 @@
+annotations:
+  group: xyz.jiangsier
+persistence:
+  enabled: true
+  accessModes:
+    - ReadWriteOnce
+  annotations:
+    helm.sh/resource-policy: keep
+  size: '8Gi'
+service:
+  type: 'ClusterIP'

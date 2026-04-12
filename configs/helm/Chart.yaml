@@ -1,0 +1,7 @@
+annotations:
+  licenses: Apache-2.0
+appVersion: latest
+description: A Helm chart for Halo
+name: jiangsier-halo
+type: application
+version: 1.3.2
